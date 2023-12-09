@@ -1,0 +1,43 @@
+@charset "utf-8";
+#header
+{
+	background:#b3c4ff;
+	width:50%;
+	height:100px;
+	margin-left:25%;
+	text-align: center;
+	border-radius:20px;
+	bottom:50pt;
+	
+}
+#navigater
+{
+	background:#6687ff;
+	width:50%;
+	height:30px;
+	margin-left:25%;
+	text-align: center;
+	border-radius:20px;
+}
+#content
+{
+	background:#e6ecff;
+	width:50%;
+	height:500px;
+	margin-left:25%;
+	text-align: center;
+	border-radius:20px;
+}
+#pic
+{
+	padding-top:30px;
+	padding-left:13%;
+}
+#footer
+{
+	background:#0027b3;
+	width:50%;
+	height:100px;
+	margin-left:25%;
+	border-radius:20px;
+}

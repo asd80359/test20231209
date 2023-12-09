@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="BIG5">
+<title>Insert title here</title>
+<link rel="stylesheet"  href="/css/st1.css">
+</head>
+<body>
+<div id="header"><h1>Order</h1></div>
+<div id="navigater"></div>
+<div id="content">
+	<div id="pic">
+		<FORM action="/porder/add" method="post">
+			<table>
+				<tr height=40>
+					<td colspan=3 align=center>
+					<h3><p th:text="${session.M.name}"></h3>
+				<tr height=150>
+					<td>A<br>
+					<img alt="" src="/pic/1.jpg">
+					<input type="text" name="a" size=6>
+					<td>B<br>
+					<img alt="" src="/pic/2.jpg">
+					<input type="text" name="b" size=6>
+					<td>C<br>
+					<img alt="" src="/pic/3.jpg">
+					<input type="text" name="c" size=6>
+				<tr height=20>
+					<td colspan=3 align=center>
+					<input type=submit value="ok">
+			</table>
+		</FORM>
+	</div>
+</div>
+<div id="footer"></div>
+</body>
+</html>
